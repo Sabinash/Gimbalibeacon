@@ -17,8 +17,8 @@
       <engine name="cordova" version=">=3.0.0" />
    </engines>
 
-   <js-module src="www/Calendar.js" name="Calendar">
-      <clobbers target="Calendar" />
+   <js-module src="www/Beacon.js" name="Beacon">
+      <clobbers target="Beacon" />
    </js-module>
 
    <!-- android -->
