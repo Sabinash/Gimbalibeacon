@@ -1,4 +1,4 @@
-package nl.xservices.plugins;
+package com.gimbal.android.sample;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
