@@ -24,14 +24,14 @@
    <!-- android -->
    <platform name="android">
       <config-file target="res/xml/config.xml" parent="/*">
-         <feature name="Calendar">
-            <param name="android-package" value="nl.xservices.plugins.Calendar" />
+         <feature name="Beacon">
+            <param name="android-package" value="nl.xservices.plugins.Beacon" />
          </feature>
       </config-file>
      <config-file target="AndroidManifest.xml" parent="/manifest">
        <uses-permission android:name="android.permission.READ_CALENDAR"/>
        <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
      </config-file>
-      <source-file src="src/android/nl/xservices/plugins/Calendar.java" target-dir="src/nl/xservices/plugins" />
+      <source-file src="src/android/nl/xservices/plugins/Beacon.java" target-dir="src/nl/xservices/plugins" />
    </platform>
 </plugin>
