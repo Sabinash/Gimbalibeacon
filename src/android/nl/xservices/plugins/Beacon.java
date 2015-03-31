@@ -7,7 +7,7 @@ import org.json.JSONException;
 
 import android.widget.Toast;
 
-public class Calendar extends CordovaPlugin {
+public class Beacon extends CordovaPlugin {
 
 	public static final String ACTION_INITIALIZE_BEACON = "initializeBeacon";
 
