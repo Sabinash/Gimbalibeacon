@@ -2,7 +2,7 @@
 <plugin
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="nl.x-services.plugins.beacon"
+    id="com.gimbal.android.sample"
     version="4.2.9">
 
    <name>Gimbal iBeacon</name>
@@ -25,13 +25,13 @@
    <platform name="android">
       <config-file target="res/xml/config.xml" parent="/*">
          <feature name="Beacon">
-            <param name="android-package" value="nl.xservices.plugins.Beacon" />
+            <param name="android-package" value="com.gimbal.android.sample.Beacon" />
          </feature>
       </config-file>
      <config-file target="AndroidManifest.xml" parent="/manifest">
        <uses-permission android:name="android.permission.READ_CALENDAR"/>
        <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
      </config-file>
-      <source-file src="src/android/nl/xservices/plugins/Beacon.java" target-dir="src/nl/xservices/plugins" />
+      <source-file src="src/android/com/gimbal/android/sample/Beacon.java" target-dir="src/com/gimbal/android/sample" />
    </platform>
 </plugin>
