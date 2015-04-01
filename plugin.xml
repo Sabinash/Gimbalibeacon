@@ -43,6 +43,8 @@
      </config-file>
      <source-file src="src/android/com/gimbal/android/sample/Beacon.java" target-dir="src/com/gimbal/android/sample" />
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/gimbal.jar" target-dir="libs" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/gimbal-dev-logging.jar" target-dir="libs" framework="true" />
+	 
 	
    </platform>
 </plugin>
