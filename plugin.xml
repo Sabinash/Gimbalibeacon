@@ -49,7 +49,7 @@
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/android-support-v4.jar" target-dir="libs" framework="true" />
 	 
 	 
-	 
+
 	
 	
    </platform>
