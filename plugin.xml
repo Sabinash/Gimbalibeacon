@@ -46,6 +46,9 @@
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/gimbal-dev-logging.jar" target-dir="libs" framework="true" />
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/spring-android-rest-template-1.0.1.RELEASE.jar" target-dir="libs" framework="true" />
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/spring-android-core-1.0.1.RELEASE.jar" target-dir="libs" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/android-support-v4.jar" target-dir="libs" framework="true" />
+	 
+	 
 	 
 	
 	
