@@ -48,10 +48,10 @@
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/spring-android-core-1.0.1.RELEASE.jar" target-dir="libs" framework="true" />
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/android-support-v4.jar" target-dir="libs" framework="true" />
 	 
-	 <source-file src="src/android/com/gimbal/android/sample/res/drawable/icon.png" target-dir="res" framework="true" />
-	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-hdpi/icon.png" target-dir="res" framework="true" />
-	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-mdpi/icon.png" target-dir="res" framework="true" />
-	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-xhdpi/icon.png" target-dir="res" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/res/drawable/appicon.png" target-dir="res" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-hdpi/appicon.png" target-dir="res" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-mdpi/appicon.png" target-dir="res" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-xhdpi/appicon.png" target-dir="res" framework="true" />
 	 
 	 
 
