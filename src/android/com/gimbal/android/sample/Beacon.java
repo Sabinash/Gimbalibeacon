@@ -195,7 +195,7 @@ public class Beacon extends CordovaPlugin {
 	private void displayNotificationAlert(String message) {
 	   NotificationCompat.Builder mBuilder =  new NotificationCompat.Builder(cordova.getActivity());
 	   mBuilder.setContentText(message);
-	   mBuilder.setSmallIcon(R.drawable.appicon);
+	   mBuilder.setSmallIcon(android.R.drawable.alert_dark_frame);
 	   mBuilder.setAutoCancel(true);
 	   Notification note = mBuilder.build();
 	   note.defaults |= Notification.DEFAULT_VIBRATE;
