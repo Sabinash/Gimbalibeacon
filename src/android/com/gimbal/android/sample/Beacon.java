@@ -72,8 +72,6 @@ public class Beacon extends CordovaPlugin {
 					  builder.setMessage("Please turn on Bluetooth from Settings");
 					  builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
 					  public void onClick(DialogInterface dialogInterface, int i) {
-					/* Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-					 cordova.getActivity().startActivityForResult(enableBtIntent, 0);*/
 					 mBluetoothAdapter.enable();
 					    }
 					  });
