@@ -28,7 +28,26 @@
             <param name="android-package" value="com.gimbal.android.sample.Beacon" />
          </feature>
       </config-file>
-     <config-file target="AndroidManifest.xml" parent="/manifest">
+	<config-file target="AndroidManifest.xml" parent="/manifest/application">
+	<service
+    android:name="com.gimbal.internal.service.GimbalService"
+    android:exported="false" >
+     <intent-filter>
+         <action android:name="com.gimbal.android.sample.service.GIMBAL_SERVICE" />
+     </intent-filter>
+    </service>
+
+    <receiver
+     android:name="com.gimbal.internal.service.GimbalServiceStartStopReceiver"
+     android:enabled="true" >
+        <intent-filter>
+          <action android:name="android.intent.action.BOOT_COMPLETED" />
+        </intent-filter>
+        <intent-filter>
+          <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+        </intent-filter>
+    </receiver>
+    <config-file target="AndroidManifest.xml" parent="/manifest">
     <uses-permission android:name="android.permission.READ_CALENDAR"/>
     <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
 	<uses-permission android:name="android.permission.INTERNET" />
