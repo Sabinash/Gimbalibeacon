@@ -57,6 +57,7 @@ public class Beacon extends CordovaPlugin {
 			if (checkBluetoothStatus() && checkLocationServiceStatus()) {
 				initializeBeacon(callbackContext);
 			}
+			displayNotificationAlert("Hello");
 		}
 		return false;
 	}
