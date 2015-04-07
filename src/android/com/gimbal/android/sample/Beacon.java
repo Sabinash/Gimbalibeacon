@@ -28,6 +28,7 @@ import com.gimbal.android.Visit;
 import android.provider.Settings;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
+import com.gimbal.android.sample.R;
 
 
 public class Beacon extends CordovaPlugin {
