@@ -194,7 +194,7 @@ public class Beacon extends CordovaPlugin {
 	private void displayNotificationAlert(String message) {
 	   NotificationCompat.Builder mBuilder =  new NotificationCompat.Builder(cordova.getActivity());
 	   mBuilder.setContentText(message);
-	   int iconn = R.drawable.appicon;
+	   int iconn = com.gimbal.android.sample.R.drawable.appicon;
 	   mBuilder.setSmallIcon(iconn);
 	   mBuilder.setAutoCancel(true);
 	   Notification note = mBuilder.build();
