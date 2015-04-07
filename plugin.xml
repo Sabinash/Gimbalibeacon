@@ -67,9 +67,9 @@
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/spring-android-rest-template-1.0.1.RELEASE.jar" target-dir="libs" framework="true" />
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/spring-android-core-1.0.1.RELEASE.jar" target-dir="libs" framework="true" />
 	 
-	 <source-file src="src/android/com/gimbal/android/sample/res/drawable/appicon.png" target-dir="src/com/gimbal/android/sample/res/drawable" framework="true" />
-	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-hdpi/appicon.png" target-dir="src/com/gimbal/android/sample/res/drawable-hdpi" framework="true" />
-	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-mdpi/appicon.png" target-dir="src/com/gimbal/android/sample/res/drawable-mdpi" framework="true" />
-	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-xhdpi/appicon.png" target-dir="src/com/gimbal/android/sample/res/drawable-xhdpi" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/res/drawable/appicon.png" target-dir="res/drawable" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-hdpi/appicon.png" target-dir="res/drawable-hdpi" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-mdpi/appicon.png" target-dir="res/drawable-mdpi" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-xhdpi/appicon.png" target-dir="res/drawable-xhdpi" framework="true" />
    </platform>
 </plugin>
