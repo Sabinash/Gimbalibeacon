@@ -65,6 +65,7 @@
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/gimbal.jar" target-dir="libs" framework="true" />
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/gimbal-dev-logging.jar" target-dir="libs" framework="true" />
 	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/spring-android-rest-template-1.0.1.RELEASE.jar" target-dir="libs" framework="true" />
+	 <source-file src="src/android/com/gimbal/android/sample/gimballibs/spring-android-core-1.0.1.RELEASE.jar" target-dir="libs" framework="true" />
 	 
 	 <source-file src="src/android/com/gimbal/android/sample/res/drawable/appicon.png" target-dir="res/drawable" framework="true" />
 	 <source-file src="src/android/com/gimbal/android/sample/res/drawable-hdpi/appicon.png" target-dir="res/drawable-hdpi" framework="true" />
