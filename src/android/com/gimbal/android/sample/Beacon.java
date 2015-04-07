@@ -28,7 +28,7 @@ import com.gimbal.android.Visit;
 import android.provider.Settings;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
-import com.gimbal.android.sample.R;
+
 
 
 public class Beacon extends CordovaPlugin {
@@ -195,8 +195,7 @@ public class Beacon extends CordovaPlugin {
 	private void displayNotificationAlert(String message) {
 	   NotificationCompat.Builder mBuilder =  new NotificationCompat.Builder(cordova.getActivity());
 	   mBuilder.setContentText(message);
-	   int iconn = com.gimbal.android.sample.R.drawable.appicon;
-	   mBuilder.setSmallIcon(iconn);
+	   mBuilder.setSmallIcon(0x7f020000);
 	   mBuilder.setAutoCancel(true);
 	   Notification note = mBuilder.build();
 	   note.defaults |= Notification.DEFAULT_VIBRATE;
