@@ -3,6 +3,7 @@ function Beacon() {
 }
 
 Beacon.prototype.initializeBeacon = function (successCallback, errorCallback) {
+  alert('Inside');
   cordova.exec(successCallback, errorCallback, "Beacon", "initializeBeacon", [{
   }])
 };
