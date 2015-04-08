@@ -64,6 +64,21 @@ public class Beacon extends CordovaPlugin {
 					// TODO Auto-generated method stub
 					displayNotificationAlert("Hello");
 			Toast.makeText(cordova.getActivity(), "Hello Boss", Toast.LENGTH_LONG).show();
+			AlertDialog.Builder builder = new AlertDialog.Builder(
+					cordova.getActivity());
+			builder.setTitle("Bluetooth Services Not Active");
+			builder.setMessage("Please turn on Bluetooth from Settings");
+			builder.setPositiveButton("OK",
+					new DialogInterface.OnClickListener() {
+						public void onClick(
+								DialogInterface dialogInterface, int i) {
+						
+							Toast.makeText(cordova.getActivity(), "Ohk", Toast.LENGTH_LONG).show();
+						}
+					});
+			Dialog alertDialog = builder.create();
+			alertDialog.setCancelable(false);
+			alertDialog.show();
 				}
 			});
 		}
